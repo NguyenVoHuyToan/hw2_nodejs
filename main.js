@@ -10,7 +10,7 @@ const app = express();
 const PORT = 3002;
 
 app.use(express.json());
-//multer storage
+//multer storage(search gg)
 const storage= multer.diskStorage({
     destination: function (req, file, cb) {
       cb(null, './uploads');
